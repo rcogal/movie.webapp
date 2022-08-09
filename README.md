@@ -1,6 +1,15 @@
 # Movie
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+This is only a code challenge and learning more about NgRx. Current code is following the modular pattern and lazy loadng of angular modules.
+
+## How to run the app
+
+Install the dependencies by running the the command `npm install` and after that, you need to run `npm run dev:ssr` for the application to run
+
+## Unfinished code
+- Creating Navigation Menu
+- Persistence of applicatoin state
+- Functionality for saving favorite movie
 
 ## Development server
 
