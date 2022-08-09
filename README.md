@@ -2,6 +2,8 @@
 
 This is only a code challenge and learning more about NgRx. Current code is following the modular pattern and lazy loadng of angular modules.
 
+Using the [tv-maze](https://www.tvmaze.com/api) for displaying list of tv series
+
 ## How to run the app
 
 Install the dependencies by running the the command `npm install` and after that, you need to run `npm run dev:ssr` for the application to run
