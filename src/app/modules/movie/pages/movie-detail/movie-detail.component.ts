@@ -5,7 +5,6 @@ import { Observable } from 'rxjs';
 
 import { MovieDetail } from '../../../../core/models/movie-detail';
 import { BaseComponent } from '../../../../shared/components/base/base.component';
-import { SearchKeywordService } from '../../../../shared/services/search-keyword.service';
 import { MovieState } from '../../../../shared/stores/models/movie.state';
 import * as MovieActions from '../../../../shared/stores/movies/movie.actions';
 import { getMoveDetail } from '../../../../shared/stores/movies/movie.selector';
@@ -23,19 +22,10 @@ export class MovieDetailComponent extends BaseComponent implements OnInit {
     private readonly store: Store<MovieState>,
     private readonly route: ActivatedRoute,
     private readonly router: Router,
-    private readonly searchKeywordSvc: SearchKeywordService,
   ) {
     super();
 
     this.movieId = this.route.snapshot.params.movieId;
-
-    this.registerSubscription(
-      this.searchKeywordSvc.searchKeyword.subscribe((keyword) => {
-        if (keyword) {
-          this.router.navigate(['search', keyword]);
-        }
-      })
-    );
   }
 
   public ngOnInit(): void {
