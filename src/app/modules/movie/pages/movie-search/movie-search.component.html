@@ -1,0 +1,8 @@
+<div class="movie-search">
+  <h2>Shows</h2>
+  <hr />
+
+  <ng-container *ngIf="movies$ | async as movie">
+    <app-movie-list [movie]="movie"></app-movie-list>
+  </ng-container>
+</div>

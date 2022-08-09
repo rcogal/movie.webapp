@@ -1,0 +1,11 @@
+<ng-container *ngIf="movie">
+  <img
+    [src]="movie.image.medium"
+    [alt]="movie.name"
+    class="movie-search-results__item"
+  />
+  <div class="">
+    <b>{{movie.name}}</b> &#x2022; {{movie.runtime}} min
+  </div>
+
+</ng-container>

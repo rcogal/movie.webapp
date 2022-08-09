@@ -1,0 +1,9 @@
+<div class="row" *ngIf="movie">
+  <a
+    [routerLink]="['/', 'movie', movie.id]"
+    class="col-12 col-lg-3 py-3"
+    *ngFor="let movie of movie; trackBy: track"
+  >
+    <app-movie-image-detail [movie]="movie"></app-movie-image-detail>
+  </a>
+</div>

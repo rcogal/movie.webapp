@@ -1,0 +1,22 @@
+// The SCSS file structure in this folder is based on ITCSS layers:
+// - settings
+// - tools
+// - generic
+// - elements
+// - objects
+// - components
+// - utilities
+
+// settings
+@import 'settings/colors';
+
+// Bootstrap is imported after settings so that it can take advantage of them
+@import 'bootstrap-customizations/bootstrap';
+
+// components
+@import 'components/app';
+@import 'components/header';
+@import 'components/movie-detail';
+@import 'components/movie-search-results';
+
+// utilities

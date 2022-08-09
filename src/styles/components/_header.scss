@@ -1,0 +1,14 @@
+.header {
+  &__logo {
+    width: 130px;
+    height: 45px;
+  }
+
+  &__input-search {
+    width: 100%;
+
+    @include media-breakpoint-up(lg) {
+      width: 350px;
+    }
+  }
+}

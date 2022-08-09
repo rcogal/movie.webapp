@@ -1,0 +1,7 @@
+.movie-search-results {
+  &__item {
+    height: 350px;
+    background: var(--movie-image-url) no-repeat;
+    background-size: cover;
+  }
+}
