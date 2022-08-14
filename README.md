@@ -1,8 +1,8 @@
 # Movie
 
-Integrating TV-Maze API for the purpose of learning NgRX.
+Integrating [tv-maze](https://www.tvmaze.com/api) API for the purpose of learning NgRX.
 
-Using the [tv-maze](https://www.tvmaze.com/api) for displaying list of tv series
+
 
 ## How to run the app
 
