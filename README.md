@@ -1,6 +1,6 @@
 # Movie
 
-This is only a code challenge and learning more about NgRx. Current code is following the modular pattern and lazy loadng of angular modules.
+Integrating TV-Maze API for the purpose of learning NgRX.
 
 Using the [tv-maze](https://www.tvmaze.com/api) for displaying list of tv series
 
