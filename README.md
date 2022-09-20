@@ -1,6 +1,8 @@
 # Movie
 
-Integrating [tv-maze](https://www.tvmaze.com/api) API for the purpose of learning NgRX.
+Integrating [tv-maze](https://www.tvmaze.com/api) API
+
+NgRx Boilerplate.
 
 
 
